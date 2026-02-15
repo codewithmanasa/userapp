@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/Authcontext";
 import { itemsAPI } from "../services/api";
 import ItemForm from "../components/ItemForm";
 import ItemList from "../components/ItemList";
