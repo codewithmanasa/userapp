@@ -5,7 +5,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import { AuthProvider } from "./context/AuthContext";
+import { AuthProvider } from "./context/Authcontext.jsx";
 import PrivateRoute from "./components/ProtectedRoute.jsx";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
